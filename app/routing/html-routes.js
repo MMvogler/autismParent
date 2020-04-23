@@ -22,4 +22,24 @@ module.exports = function (app) {
         res.sendFile(path.join(__dirname + '/../public/resources.html'));
     });
 
+    app.get('/asc', function(req, res) {
+        res.sendFile(path.join(__dirname + '/../public/ascArticle.html'))
+    });
+
+    app.get('/cdp', function(req, res) {
+        res.sendFile(path.join(__dirname + '/../public/cdpArticle.html'));
+    });
+
+    app.get('/cheekwood', function(req, res) {
+        res.sendFile(path.join(__dirname + '/../public/cheekwoodArticle.html'));
+    });
+
+    app.get('/wave', function(req, res) {
+        res.sendFile(path.join(__dirname + '/../public/waveArticle.html'));
+    });
+
+    app.get('/zoo', function(req, res) {
+        res.sendFile(path.join(__dirname + '/../public/zooArticle.html'));
+    });
+
 }
