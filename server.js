@@ -12,6 +12,9 @@ var PORT = process.env.PORT || 8080;
 
 // parse application/x-www-form-urlencoded
 app.use(bodyParser.urlencoded({ extended: false }))
+
+// app.use(express.static("public"));
+app.use(express.static("app/public"));
  
 // parse application/json
 app.use(bodyParser.json())
@@ -21,3 +24,4 @@ require("./app/routing/html-routes")(app);
 app.listen(PORT, function() {
     console.log("App listening on PORT: " + PORT);
 });
+
