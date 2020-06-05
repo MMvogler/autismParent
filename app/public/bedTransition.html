@@ -4,71 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Bed Transition Article</title>
-    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <title>Home Page</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
     <!-- Bulma Version 0.8.x-->
     <link rel="stylesheet" href="https://unpkg.com/bulma@0.8.0/css/bulma.min.css" />
-    <link rel="stylesheet" type="text/css" href="assets/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- <script async type="text/javascript" src="../js/bulma.js"></script> -->
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
 </head>
 <body>
     <!-- Navigation bar -->
-    <nav class="navbar is-fixed-top">
-        <div class="navbar-brand">
-            <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
-            <span></span>
-            <span></span>
-            <span></span>
-            </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="completeHeader">
+        <div>
+          <figure class="image topLogo">
+              <img src="assets/images/APDark.png" alt="Logo Image">
+          </figure>
+          <a class="navbar-item" href="https://www.instagram.com/mmphilmon/?hl=en">
+              <span class="icon">
+                  <i class="fab fa-instagram"></i>
+              </span>
+          </a>
+      </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <ul class="navbar-nav">
+              <li>
+                  <a class="nav-item nav-link" href="/"> <i class="fas fa-home"></i> Home </a>
+              </li>
+              <li>
+                <a class="nav-item nav-link" href="/about">| <i class="fas fa-info"></i> About </a>
+              </li>
+            <li>
+                <a class="nav-item nav-link" href="/sites">| <i class="fas fa-globe-americas"></i> Sites </a>
+            </li>
+            <li>
+                <a class="nav-item nav-link" href="/events">| <i class="fas fa-calendar"></i> Events </a>
+            </li>
+            <li>
+                <a class="nav-item nav-link" href="/resources">| <i class="fas fa-hands-helping"></i> Resources </a>
+            </li>
+          </ul>
         </div>
-
-        <div id="navbarExampleTransparentExample" class="navbar-menu">
-            <div>
-                <figure class="image topLogo">
-                    <img src="assets/images/APDark.png" alt="Logo Image">
-                </figure>
-                <a class="navbar-item" href="https://www.instagram.com/mmphilmon/?hl=en">
-                    <span class="icon">
-                        <i class="fab fa-instagram"></i>
-                    </span>
-                </a>
-            </div>
-            <div class="navbar-end">
-                <a class="navbar-item" href="/">
-                    <span class="icon">
-                    <i class="fas fa-home"></i>
-                    </span>
-                    <span>Home</span>
-                </a>
-                <a class="navbar-item" href="/about">
-                    <span class="icon">
-                    <i class="fas fa-info"></i>
-                    </span>
-                    <span>About</span>
-                </a>
-                <a class="navbar-item" href="/sites">
-                    <span class="icon">
-                    <i class="fas fa-globe-americas"></i>
-                    </span>
-                    <span>Sites</span>
-                </a>
-                <a class="navbar-item" href="/events">
-                    <span class="icon">
-                    <i class="fas fa-calendar"></i>
-                    </span>
-                    <span>Events</span>
-                </a>
-                <a class="navbar-item" href="/resources">
-                    <span class="icon">
-                    <i class="fas fa-hands-helping"></i>
-                    </span>
-                    <span>Resources</span>
-                </a>
-            </div>
-        </div>
-    </nav>
+      </nav>
     <br><br><br><br><br>
     <!-- Article Container -->
     <div class="container is-fluid">
@@ -136,6 +116,10 @@
             </section>
         </div>
     </div>
-        
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  
+       
 </body>
 </html>
