@@ -3,7 +3,7 @@
 }
 
 .navbarLinks {
-    margin-left: 50%;
+    margin-left: 48%;
 }
 
 .topLogo {
@@ -46,11 +46,6 @@
     background-size: cover;
     position: relative;
 }
-
-.OTActivitiesButtons {
-    margin-left: 30%;
-}
-
 
 .aboutImage {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
@@ -151,4 +146,44 @@ form .submit:hover {
     margin-left: 50%;
   } */
 
+
+/* Responsive Content */
+/* _____________________________________________ */
+
+@media screen and (max-width:980px) {
+   
+    .navbarLinks {
+        margin-left: 0%;
+    }
+
+
+}
+
+
+@media screen and (max-width:768px) {
+
+    .OTActivitiesButtons {
+        margin-left: 10%;
+        
+    }
+
+    .navbarLinks {
+        margin-left: 0%;
+    }
+
+}
+
+@media screen and (max-width:640px) {
+
+    .topLogo {
+        margin-left: 80%; 
+        width: 200px;
+        height: 200px;
+        margin-top: 0px;
+
+    }
+    .navbarLinks {
+        margin-left: 0%;
+    }
+}
 
