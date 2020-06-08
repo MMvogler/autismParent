@@ -1,5 +1,9 @@
-.navbar {
-    background-color: white;
+.headNavbar {
+    background-color: white!important;
+}
+
+.navbarLinks {
+    margin-left: 50%;
 }
 
 .topLogo {
@@ -41,6 +45,10 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+}
+
+.OTActivitiesButtons {
+    margin-left: 30%;
 }
 
 
@@ -142,3 +150,5 @@ form .submit:hover {
     height: 100px;
     margin-left: 50%;
   } */
+
+
