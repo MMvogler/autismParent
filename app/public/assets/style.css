@@ -159,6 +159,14 @@ form .submit:hover {
         margin-left: 0%;
     }
 
+    .heroText {
+        font-size: medium!important;
+    }
+
+    .aboutMeName {
+        color: transparent;
+    }
+
 
 }
 
@@ -172,6 +180,20 @@ form .submit:hover {
 
     .navbarLinks {
         margin-left: 0%;
+    }
+
+    .aboutMeImage {
+        height: 800px; 
+        width: 400px;
+        margin-left: 20%;
+    }
+
+    .aboutMeBio {
+        padding-right: 50px;
+    }
+
+    .aboutMeName {
+        color: black;  
     }
 
 }
@@ -207,6 +229,18 @@ form .submit:hover {
         margin-left: 0%;
         
     }
+
+    .heroText {
+        font-size: small!important;
+    }
+
+    .aboutMeImage {
+        margin-left: 0%;
+    }
+
+
+
+
 }
 
 
