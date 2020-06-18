@@ -77,9 +77,18 @@
     padding-bottom: 200px; 
 }
 
+.articleSection {
+    padding-bottom: 200px;
+}
+
 .sitesBody {
     margin-left: 40px;
     margin-right: 40px;
+    padding-bottom: 200px;
+}
+
+.resourcesBody {
+    padding-bottom: 200px;
 }
 
 .cardTitles {
