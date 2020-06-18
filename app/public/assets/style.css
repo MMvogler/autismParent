@@ -74,6 +74,7 @@
 
 .profile {
     margin-left: 40px;
+    padding-bottom: 200px; 
 }
 
 .sitesBody {
@@ -132,21 +133,37 @@ form .submit:hover {
     cursor: pointer;
 }
 
-
 /* .footer {
+    background-color: white;
+    padding: 20px;
+    position: fixed;
+    bottom:0%;
+    width: 100%;
+    padding: 0px;
+    margin-bottom: 0px;
+} */
+
+.footer {
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
     background-color: white;
     padding: 0px;
+    border-top-color: lightslategray;
+    border-top-style: solid;
+    max-height: 90px;
   }
 
   .imageFooter {
     width: 100px;
     height: 100px;
-    margin-left: 50%;
-  } */
+    margin-left: 70%;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+  }
 
 
 /* Responsive Content */
@@ -197,6 +214,12 @@ form .submit:hover {
     .aboutMeName {
         color: black;  
     }
+
+    .imageFooter {
+        margin-left: 45%;
+
+      }
+    
 
 }
 
